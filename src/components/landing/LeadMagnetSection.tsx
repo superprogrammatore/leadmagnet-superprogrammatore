@@ -17,7 +17,7 @@ const LeadMagnetSection = () => {
           transition={{ duration: 0.6 }}
           className="text-center mb-12"
         >
-          <h2 className="text-3xl md:text-5xl font-bold mb-4">
+          <h2 className="text-2xl sm:text-3xl md:text-5xl font-bold mb-4">
             Pronto ad <span className="text-primary text-glow">Accettare la Sfida?</span>
           </h2>
           <p className="text-muted-foreground text-lg">
@@ -27,14 +27,14 @@ const LeadMagnetSection = () => {
           </p>
         </motion.div>
 
-        <div className="grid md:grid-cols-2 gap-8">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-4 sm:gap-8">
           {/* Lezione Gratuita */}
           <motion.div
             initial={{ opacity: 0, x: -30 }}
             whileInView={{ opacity: 1, x: 0 }}
             viewport={{ once: true }}
             transition={{ duration: 0.6, delay: 0.1 }}
-            className="rounded-2xl border border-primary/20 bg-gradient-to-br from-card to-primary/5 p-8 text-center flex flex-col justify-between hover:border-primary/40 transition-colors duration-300"
+            className="rounded-2xl border border-primary/20 bg-gradient-to-br from-card to-primary/5 p-6 sm:p-8 text-center flex flex-col justify-between hover:border-primary/40 transition-colors duration-300"
           >
             <div>
               <div className="w-16 h-16 rounded-2xl bg-primary/10 border border-primary/30 flex items-center justify-center mx-auto mb-5">
@@ -65,7 +65,7 @@ const LeadMagnetSection = () => {
             whileInView={{ opacity: 1, x: 0 }}
             viewport={{ once: true }}
             transition={{ duration: 0.6, delay: 0.25 }}
-            className="rounded-2xl border border-primary/20 bg-gradient-to-br from-card to-primary/5 p-8 text-center flex flex-col justify-between hover:border-primary/40 transition-colors duration-300"
+            className="rounded-2xl border border-primary/20 bg-gradient-to-br from-card to-primary/5 p-6 sm:p-8 text-center flex flex-col justify-between hover:border-primary/40 transition-colors duration-300"
           >
             <div>
               <div className="w-16 h-16 rounded-2xl bg-primary/10 border border-primary/30 flex items-center justify-center mx-auto mb-5">

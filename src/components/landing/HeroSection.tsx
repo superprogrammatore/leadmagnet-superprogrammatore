@@ -34,13 +34,14 @@ const HeroSection = () => {
           transition={{ duration: 0.6, delay: 0.2 }}
           className="flex justify-center mb-8"
         >
-          <div className="glow-yellow-strong rounded-2xl bg-primary/10 border border-primary/30 px-8 py-4 inline-flex items-center gap-4">
+          <div className="glow-yellow-strong rounded-2xl bg-primary/10 border border-primary/30 px-5 sm:px-8 py-4 inline-flex flex-col sm:flex-row items-center gap-3 sm:gap-4">
             <div className="text-center">
-              <div className="text-5xl font-bold text-primary text-glow">10</div>
+              <div className="text-4xl sm:text-5xl font-bold text-primary text-glow">10</div>
               <div className="text-xs text-primary/80 uppercase tracking-widest mt-1">Minuti</div>
             </div>
-            <div className="w-px h-12 bg-primary/30" />
-            <div className="text-left">
+            <div className="hidden sm:block w-px h-12 bg-primary/30" />
+            <div className="w-12 h-px sm:hidden bg-primary/30" />
+            <div className="text-center sm:text-left">
               <div className="text-sm text-foreground/80">È tutto ciò che serve per creare</div>
               <div className="text-sm font-semibold text-foreground">una Web App completa al 100%</div>
             </div>
@@ -52,7 +53,7 @@ const HeroSection = () => {
           initial={{ opacity: 0, y: 30 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8, delay: 0.3 }}
-          className="text-4xl sm:text-5xl md:text-7xl font-bold leading-tight mb-6"
+          className="text-3xl sm:text-4xl md:text-5xl lg:text-7xl font-bold leading-tight mb-6"
         >
           <span className="text-primary text-glow">LA SFIDA:</span>
           <br />
@@ -65,7 +66,7 @@ const HeroSection = () => {
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8, delay: 0.5 }}
-          className="text-lg md:text-xl text-muted-foreground max-w-3xl mx-auto mb-10 leading-relaxed"
+          className="text-base md:text-xl text-muted-foreground max-w-3xl mx-auto mb-10 leading-relaxed px-2"
         >
           Registrazione utenti, login/logout, database, accessibile da internet.
           <br className="hidden sm:block" />
@@ -77,28 +78,28 @@ const HeroSection = () => {
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8, delay: 0.7 }}
-          className="flex flex-col sm:flex-row items-center justify-center gap-4"
+          className="flex flex-col items-center justify-center gap-4"
         >
           <Button
             asChild
             size="lg"
-            className="text-lg px-10 py-7 rounded-xl glow-yellow hover:glow-yellow-strong transition-all duration-300 font-bold group"
+            className="w-full sm:w-auto text-base sm:text-lg px-8 sm:px-10 py-6 sm:py-7 rounded-xl glow-yellow hover:glow-yellow-strong transition-all duration-300 font-bold group"
           >
             <a href="https://example.com/lezione" target="_blank" rel="noopener noreferrer">
-              <Zap className="mr-2 w-5 h-5" />
+              <Zap className="mr-2 w-5 h-5 shrink-0" />
               Guarda la Lezione Gratuita
-              <ArrowRight className="ml-2 w-5 h-5 group-hover:translate-x-1 transition-transform" />
+              <ArrowRight className="ml-2 w-5 h-5 shrink-0 group-hover:translate-x-1 transition-transform" />
             </a>
           </Button>
           <Button
             asChild
             size="lg"
-            className="text-lg px-10 py-7 rounded-xl glow-yellow hover:glow-yellow-strong transition-all duration-300 font-bold group"
+            className="w-full sm:w-auto text-base sm:text-lg px-8 sm:px-10 py-6 sm:py-7 rounded-xl glow-yellow hover:glow-yellow-strong transition-all duration-300 font-bold group"
           >
             <a href="https://example.com/super-programmatore" target="_blank" rel="noopener noreferrer">
-              <Rocket className="mr-2 w-5 h-5" />
+              <Rocket className="mr-2 w-5 h-5 shrink-0" />
               Diventa Super Programmatore!
-              <ArrowRight className="ml-2 w-5 h-5 group-hover:translate-x-1 transition-transform" />
+              <ArrowRight className="ml-2 w-5 h-5 shrink-0 group-hover:translate-x-1 transition-transform" />
             </a>
           </Button>
         </motion.div>
