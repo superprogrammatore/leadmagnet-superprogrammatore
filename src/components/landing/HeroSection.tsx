@@ -80,16 +80,28 @@ const HeroSection = () => {
           className="flex flex-col sm:flex-row items-center justify-center gap-4"
         >
           <Button
-            onClick={scrollToForm}
+            asChild
             size="lg"
             className="text-lg px-10 py-7 rounded-xl glow-yellow hover:glow-yellow-strong transition-all duration-300 font-bold group"
           >
-            Accetta la Sfida
-            <ArrowRight className="ml-2 w-5 h-5 group-hover:translate-x-1 transition-transform" />
+            <a href="https://example.com/lezione" target="_blank" rel="noopener noreferrer">
+              <Zap className="mr-2 w-5 h-5" />
+              Guarda la Lezione Gratuita
+              <ArrowRight className="ml-2 w-5 h-5 group-hover:translate-x-1 transition-transform" />
+            </a>
           </Button>
-          <p className="text-sm text-muted-foreground">
-            🎓 100% Gratuito • Nessuna carta richiesta
-          </p>
+          <Button
+            asChild
+            size="lg"
+            variant="outline"
+            className="text-lg px-10 py-7 rounded-xl border-accent/40 hover:bg-accent/10 transition-all duration-300 font-bold group"
+          >
+            <a href="https://example.com/super-programmatore" target="_blank" rel="noopener noreferrer">
+              <Rocket className="mr-2 w-5 h-5" />
+              Diventa Super Programmatore!
+              <Rocket className="ml-2 w-5 h-5 group-hover:translate-x-1 transition-transform" />
+            </a>
+          </Button>
         </motion.div>
 
         {/* Corso title */}
