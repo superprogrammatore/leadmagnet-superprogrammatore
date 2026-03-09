@@ -112,7 +112,7 @@ const HeroSection = () => {
             <div className="w-14 h-14 rounded-2xl bg-primary/10 border border-primary/30 flex items-center justify-center mb-4">
               <Rocket className="w-7 h-7 text-primary" />
             </div>
-            <h3 className="text-lg sm:text-xl font-bold mb-2">🚀 Sono Pronto!</h3>
+            <h3 className="text-lg sm:text-xl font-bold mb-2">🚀 Scopri il Percorso Completo</h3>
             <p className="text-muted-foreground text-xs sm:text-sm mb-4 leading-relaxed">
               Diventa un Super Programmatore con il Super Potere dell'AI.
             </p>

@@ -71,7 +71,7 @@ const LeadMagnetSection = () => {
               <div className="w-16 h-16 rounded-2xl bg-primary/10 border border-primary/30 flex items-center justify-center mx-auto mb-5">
                 <Rocket className="w-8 h-8 text-primary" />
               </div>
-              <h3 className="text-2xl font-bold mb-3">🚀 Sono Pronto!</h3>
+              <h3 className="text-2xl font-bold mb-3">🚀 Scopri il Percorso Completo</h3>
               <p className="text-muted-foreground text-sm mb-6 leading-relaxed">
                 Voglio diventare un Super Programmatore con il Super Potere dell'AI. 
                 Accedi direttamente al percorso completo.
