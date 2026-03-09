@@ -23,7 +23,7 @@ const SocialProofSection = () => {
           transition={{ duration: 0.6 }}
           className="text-center mb-16"
         >
-          <h2 className="text-3xl md:text-5xl font-bold mb-4">
+          <h2 className="text-2xl sm:text-3xl md:text-5xl font-bold mb-4">
             I Numeri Parlano <span className="text-primary text-glow">Chiaro</span>
           </h2>
         </motion.div>
