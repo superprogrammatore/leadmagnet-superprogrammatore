@@ -52,8 +52,8 @@ const LeadMagnetSection = () => {
               className="w-full h-14 text-base font-bold rounded-xl bg-primary text-primary-foreground hover:bg-primary/90 transition-all duration-300 group"
             >
               <a href="https://example.com/lezione" target="_blank" rel="noopener noreferrer">
-                Guarda la Lezione Gratuita
-                <ArrowRight className="ml-2 w-5 h-5 group-hover:translate-x-1 transition-transform" />
+                <span className="leading-none">Guarda la Lezione Gratuita</span>
+                <ArrowRight className="w-5 h-5 shrink-0 group-hover:translate-x-1 transition-transform" />
               </a>
             </Button>
             <p className="text-xs text-muted-foreground mt-3">🎓 100% Gratuito • Nessun impegno</p>
