@@ -36,11 +36,11 @@ const SocialProofSection = () => {
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
               transition={{ duration: 0.5, delay: index * 0.1 }}
-              className="text-center p-6 rounded-2xl bg-card border border-border/50"
+              className="text-center p-4 sm:p-6 rounded-2xl bg-card border border-border/50"
             >
-              <stat.icon className="w-8 h-8 text-primary mx-auto mb-4" />
-              <div className="text-3xl md:text-4xl font-bold text-primary text-glow mb-2">{stat.value}</div>
-              <div className="text-sm text-muted-foreground">{stat.label}</div>
+              <stat.icon className="w-6 h-6 sm:w-8 sm:h-8 text-primary mx-auto mb-3 sm:mb-4" />
+              <div className="text-2xl sm:text-3xl md:text-4xl font-bold text-primary text-glow mb-1 sm:mb-2">{stat.value}</div>
+              <div className="text-xs sm:text-sm text-muted-foreground">{stat.label}</div>
             </motion.div>
           ))}
         </div>
