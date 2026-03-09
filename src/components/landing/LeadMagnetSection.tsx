@@ -65,7 +65,7 @@ const LeadMagnetSection = () => {
             whileInView={{ opacity: 1, x: 0 }}
             viewport={{ once: true }}
             transition={{ duration: 0.6, delay: 0.25 }}
-            className="rounded-2xl border border-primary/20 bg-gradient-to-br from-card to-primary/5 p-8 text-center flex flex-col justify-between hover:border-primary/40 transition-colors duration-300"
+            className="rounded-2xl border border-primary/20 bg-gradient-to-br from-card to-primary/5 p-6 sm:p-8 text-center flex flex-col justify-between hover:border-primary/40 transition-colors duration-300"
           >
             <div>
               <div className="w-16 h-16 rounded-2xl bg-primary/10 border border-primary/30 flex items-center justify-center mx-auto mb-5">

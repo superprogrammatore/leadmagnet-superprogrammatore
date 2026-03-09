@@ -61,7 +61,7 @@ const FeaturesSection = () => {
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
               transition={{ duration: 0.5, delay: index * 0.1 }}
-              className="group relative rounded-2xl bg-card border border-border/50 p-8 hover:border-primary/40 transition-all duration-500"
+              className="group relative rounded-2xl bg-card border border-border/50 p-6 sm:p-8 hover:border-primary/40 transition-all duration-500"
             >
               <div className="absolute inset-0 rounded-2xl bg-primary/[0.02] opacity-0 group-hover:opacity-100 transition-opacity duration-500" />
               <div className="relative z-10">

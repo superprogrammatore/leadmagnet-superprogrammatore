@@ -49,9 +49,9 @@ const ProblemSection = () => {
             whileInView={{ opacity: 1, x: 0 }}
             viewport={{ once: true }}
             transition={{ duration: 0.6, delay: 0.4 }}
-            className="rounded-2xl bg-card border border-primary/30 p-8 glow-yellow"
+            className="rounded-2xl bg-card border border-primary/30 p-6 sm:p-8 glow-yellow"
           >
-            <h3 className="text-2xl font-bold mb-6 text-primary">Con il Super Potere dell'AI</h3>
+            <h3 className="text-xl sm:text-2xl font-bold mb-4 sm:mb-6 text-primary">Con il Super Potere dell'AI</h3>
             <ul className="space-y-4">
               {[
                 "Crei una web app completa in 10 minuti",

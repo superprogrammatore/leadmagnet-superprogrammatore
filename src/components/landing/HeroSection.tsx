@@ -78,28 +78,28 @@ const HeroSection = () => {
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8, delay: 0.7 }}
-          className="flex flex-col sm:flex-row items-center justify-center gap-4"
+          className="flex flex-col items-center justify-center gap-4"
         >
           <Button
             asChild
             size="lg"
-            className="text-lg px-10 py-7 rounded-xl glow-yellow hover:glow-yellow-strong transition-all duration-300 font-bold group"
+            className="w-full sm:w-auto text-base sm:text-lg px-8 sm:px-10 py-6 sm:py-7 rounded-xl glow-yellow hover:glow-yellow-strong transition-all duration-300 font-bold group"
           >
             <a href="https://example.com/lezione" target="_blank" rel="noopener noreferrer">
-              <Zap className="mr-2 w-5 h-5" />
+              <Zap className="mr-2 w-5 h-5 shrink-0" />
               Guarda la Lezione Gratuita
-              <ArrowRight className="ml-2 w-5 h-5 group-hover:translate-x-1 transition-transform" />
+              <ArrowRight className="ml-2 w-5 h-5 shrink-0 group-hover:translate-x-1 transition-transform" />
             </a>
           </Button>
           <Button
             asChild
             size="lg"
-            className="text-lg px-10 py-7 rounded-xl glow-yellow hover:glow-yellow-strong transition-all duration-300 font-bold group"
+            className="w-full sm:w-auto text-base sm:text-lg px-8 sm:px-10 py-6 sm:py-7 rounded-xl glow-yellow hover:glow-yellow-strong transition-all duration-300 font-bold group"
           >
             <a href="https://example.com/super-programmatore" target="_blank" rel="noopener noreferrer">
-              <Rocket className="mr-2 w-5 h-5" />
+              <Rocket className="mr-2 w-5 h-5 shrink-0" />
               Diventa Super Programmatore!
-              <ArrowRight className="ml-2 w-5 h-5 group-hover:translate-x-1 transition-transform" />
+              <ArrowRight className="ml-2 w-5 h-5 shrink-0 group-hover:translate-x-1 transition-transform" />
             </a>
           </Button>
         </motion.div>

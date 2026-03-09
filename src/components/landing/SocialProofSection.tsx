@@ -53,7 +53,7 @@ const SocialProofSection = () => {
           transition={{ duration: 0.6, delay: 0.3 }}
           className="mt-16 text-center max-w-3xl mx-auto"
         >
-          <blockquote className="text-xl md:text-2xl italic text-foreground/80 leading-relaxed">
+          <blockquote className="text-lg sm:text-xl md:text-2xl italic text-foreground/80 leading-relaxed px-2">
             "Non pensavo fosse possibile creare qualcosa di funzionante così velocemente.
             L'AI ha cambiato completamente il mio approccio alla programmazione."
           </blockquote>
