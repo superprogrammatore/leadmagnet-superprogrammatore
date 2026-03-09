@@ -34,13 +34,14 @@ const HeroSection = () => {
           transition={{ duration: 0.6, delay: 0.2 }}
           className="flex justify-center mb-8"
         >
-          <div className="glow-yellow-strong rounded-2xl bg-primary/10 border border-primary/30 px-8 py-4 inline-flex items-center gap-4">
+          <div className="glow-yellow-strong rounded-2xl bg-primary/10 border border-primary/30 px-5 sm:px-8 py-4 inline-flex flex-col sm:flex-row items-center gap-3 sm:gap-4">
             <div className="text-center">
-              <div className="text-5xl font-bold text-primary text-glow">10</div>
+              <div className="text-4xl sm:text-5xl font-bold text-primary text-glow">10</div>
               <div className="text-xs text-primary/80 uppercase tracking-widest mt-1">Minuti</div>
             </div>
-            <div className="w-px h-12 bg-primary/30" />
-            <div className="text-left">
+            <div className="hidden sm:block w-px h-12 bg-primary/30" />
+            <div className="w-12 h-px sm:hidden bg-primary/30" />
+            <div className="text-center sm:text-left">
               <div className="text-sm text-foreground/80">È tutto ciò che serve per creare</div>
               <div className="text-sm font-semibold text-foreground">una Web App completa al 100%</div>
             </div>
