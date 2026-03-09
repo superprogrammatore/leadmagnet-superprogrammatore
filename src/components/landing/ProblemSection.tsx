@@ -24,9 +24,9 @@ const ProblemSection = () => {
             whileInView={{ opacity: 1, x: 0 }}
             viewport={{ once: true }}
             transition={{ duration: 0.6, delay: 0.2 }}
-            className="rounded-2xl bg-card border border-destructive/20 p-8"
+            className="rounded-2xl bg-card border border-destructive/20 p-6 sm:p-8"
           >
-            <h3 className="text-2xl font-bold mb-6 text-destructive">Il Vecchio Modo</h3>
+            <h3 className="text-xl sm:text-2xl font-bold mb-4 sm:mb-6 text-destructive">Il Vecchio Modo</h3>
             <ul className="space-y-4">
               {[
                 "Mesi di studio prima di creare qualcosa",
