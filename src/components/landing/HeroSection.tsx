@@ -73,35 +73,58 @@ const HeroSection = () => {
           <span className="text-foreground font-medium">Tutto questo senza scrivere una singola riga di codice "tradizionale".</span>
         </motion.p>
 
-        {/* CTA */}
+        {/* CTA Cards */}
         <motion.div
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8, delay: 0.7 }}
-          className="flex flex-col items-center justify-center gap-4"
+          className="grid grid-cols-1 sm:grid-cols-2 gap-4 sm:gap-6 max-w-2xl mx-auto"
         >
-          <Button
-            asChild
-            size="lg"
-            className="w-full sm:w-auto text-base sm:text-lg px-8 sm:px-10 py-6 sm:py-7 rounded-xl glow-yellow hover:glow-yellow-strong transition-all duration-300 font-bold group"
+          <a
+            href="https://example.com/lezione"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="rounded-2xl border border-primary/20 bg-gradient-to-br from-card to-primary/5 p-6 text-center flex flex-col items-center hover:border-primary/40 transition-colors duration-300 group"
           >
-            <a href="https://example.com/lezione" target="_blank" rel="noopener noreferrer">
-              <Zap className="mr-2 w-5 h-5 shrink-0" />
+            <div className="w-14 h-14 rounded-2xl bg-primary/10 border border-primary/30 flex items-center justify-center mb-4">
+              <Zap className="w-7 h-7 text-primary" />
+            </div>
+            <h3 className="text-lg sm:text-xl font-bold mb-2">🎯 Accetta la Sfida</h3>
+            <p className="text-muted-foreground text-xs sm:text-sm mb-4 leading-relaxed">
+              Guarda come creo una web app completa in meno di 10 minuti.
+            </p>
+            <Button
+              size="lg"
+              className="w-full h-12 text-sm sm:text-base font-bold rounded-xl bg-primary text-primary-foreground hover:bg-primary/90 transition-all duration-300"
+            >
               Guarda la Lezione Gratuita
-              <ArrowRight className="ml-2 w-5 h-5 shrink-0 group-hover:translate-x-1 transition-transform" />
-            </a>
-          </Button>
-          <Button
-            asChild
-            size="lg"
-            className="w-full sm:w-auto text-base sm:text-lg px-8 sm:px-10 py-6 sm:py-7 rounded-xl glow-yellow hover:glow-yellow-strong transition-all duration-300 font-bold group"
+              <ArrowRight className="ml-2 w-4 h-4 group-hover:translate-x-1 transition-transform" />
+            </Button>
+            <p className="text-xs text-muted-foreground mt-2">🎓 100% Gratuito</p>
+          </a>
+
+          <a
+            href="https://example.com/super-programmatore"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="rounded-2xl border border-primary/20 bg-gradient-to-br from-card to-primary/5 p-6 text-center flex flex-col items-center hover:border-primary/40 transition-colors duration-300 group"
           >
-            <a href="https://example.com/super-programmatore" target="_blank" rel="noopener noreferrer">
-              <Rocket className="mr-2 w-5 h-5 shrink-0" />
+            <div className="w-14 h-14 rounded-2xl bg-primary/10 border border-primary/30 flex items-center justify-center mb-4">
+              <Rocket className="w-7 h-7 text-primary" />
+            </div>
+            <h3 className="text-lg sm:text-xl font-bold mb-2">🚀 Sono Pronto!</h3>
+            <p className="text-muted-foreground text-xs sm:text-sm mb-4 leading-relaxed">
+              Diventa un Super Programmatore con il Super Potere dell'AI.
+            </p>
+            <Button
+              size="lg"
+              className="w-full h-12 text-sm sm:text-base font-bold rounded-xl bg-primary text-primary-foreground hover:bg-primary/90 transition-all duration-300"
+            >
               Diventa Super Programmatore!
-              <ArrowRight className="ml-2 w-5 h-5 shrink-0 group-hover:translate-x-1 transition-transform" />
-            </a>
-          </Button>
+              <ArrowRight className="ml-2 w-4 h-4 group-hover:translate-x-1 transition-transform" />
+            </Button>
+            <p className="text-xs text-muted-foreground mt-2">🚀 Il percorso completo</p>
+          </a>
         </motion.div>
 
         {/* Corso title */}
