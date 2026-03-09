@@ -95,10 +95,10 @@ const HeroSection = () => {
             </p>
             <Button
               size="lg"
-              className="w-full h-12 text-sm sm:text-base font-bold rounded-xl bg-primary text-primary-foreground hover:bg-primary/90 transition-all duration-300"
+              className="w-full h-12 text-sm sm:text-base font-bold rounded-xl bg-primary text-primary-foreground hover:bg-primary/90 transition-all duration-300 items-center"
             >
-              Guarda la Lezione Gratuita
-              <ArrowRight className="ml-2 w-4 h-4 group-hover:translate-x-1 transition-transform" />
+              <span className="leading-none">Guarda la Lezione Gratuita</span>
+              <ArrowRight className="w-4 h-4 shrink-0 group-hover:translate-x-1 transition-transform" />
             </Button>
             <p className="text-xs text-muted-foreground mt-2">🎓 100% Gratuito</p>
           </a>
