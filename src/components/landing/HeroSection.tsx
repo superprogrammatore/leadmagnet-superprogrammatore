@@ -93,13 +93,12 @@ const HeroSection = () => {
           <Button
             asChild
             size="lg"
-            variant="outline"
-            className="text-lg px-10 py-7 rounded-xl border-accent/40 hover:bg-accent/10 transition-all duration-300 font-bold group"
+            className="text-lg px-10 py-7 rounded-xl glow-yellow hover:glow-yellow-strong transition-all duration-300 font-bold group"
           >
             <a href="https://example.com/super-programmatore" target="_blank" rel="noopener noreferrer">
               <Rocket className="mr-2 w-5 h-5" />
               Diventa Super Programmatore!
-              <Rocket className="ml-2 w-5 h-5 group-hover:translate-x-1 transition-transform" />
+              <ArrowRight className="ml-2 w-5 h-5 group-hover:translate-x-1 transition-transform" />
             </a>
           </Button>
         </motion.div>

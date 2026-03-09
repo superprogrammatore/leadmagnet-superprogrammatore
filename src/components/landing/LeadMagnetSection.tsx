@@ -65,11 +65,11 @@ const LeadMagnetSection = () => {
             whileInView={{ opacity: 1, x: 0 }}
             viewport={{ once: true }}
             transition={{ duration: 0.6, delay: 0.25 }}
-            className="rounded-2xl border border-accent/30 bg-gradient-to-br from-card to-accent/5 p-8 text-center flex flex-col justify-between hover:border-accent/50 transition-colors duration-300"
+            className="rounded-2xl border border-primary/20 bg-gradient-to-br from-card to-primary/5 p-8 text-center flex flex-col justify-between hover:border-primary/40 transition-colors duration-300"
           >
             <div>
-              <div className="w-16 h-16 rounded-2xl bg-accent/10 border border-accent/30 flex items-center justify-center mx-auto mb-5">
-                <Rocket className="w-8 h-8 text-accent-foreground" />
+              <div className="w-16 h-16 rounded-2xl bg-primary/10 border border-primary/30 flex items-center justify-center mx-auto mb-5">
+                <Rocket className="w-8 h-8 text-primary" />
               </div>
               <h3 className="text-2xl font-bold mb-3">🚀 Sono Pronto!</h3>
               <p className="text-muted-foreground text-sm mb-6 leading-relaxed">
@@ -80,11 +80,11 @@ const LeadMagnetSection = () => {
             <Button
               asChild
               size="lg"
-              className="w-full h-14 text-base font-bold rounded-xl bg-accent text-accent-foreground hover:bg-accent/90 transition-all duration-300 group"
+              className="w-full h-14 text-base font-bold rounded-xl bg-primary text-primary-foreground hover:bg-primary/90 transition-all duration-300 group"
             >
               <a href="https://example.com/super-programmatore" target="_blank" rel="noopener noreferrer">
                 Diventa Super Programmatore!
-                <Rocket className="ml-2 w-5 h-5 group-hover:translate-x-1 transition-transform" />
+                <ArrowRight className="ml-2 w-5 h-5 group-hover:translate-x-1 transition-transform" />
               </a>
             </Button>
             <p className="text-xs text-muted-foreground mt-3">🚀 Il percorso completo</p>
