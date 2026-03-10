@@ -1,6 +1,7 @@
 import { motion } from "framer-motion";
 import { ArrowRight, Zap, Rocket } from "lucide-react";
 import { Button } from "@/components/ui/button";
+import superProgrammatoreLogo from "@/assets/super-programmatore-logo.png";
 
 const HeroSection = () => {
   const scrollToForm = () => {
@@ -134,7 +135,8 @@ const HeroSection = () => {
           transition={{ duration: 1, delay: 1 }}
           className="mt-16 pt-8 border-t border-border/50"
         >
-          <p className="text-xs uppercase tracking-[0.3em] text-muted-foreground mb-2">Dal corso</p>
+          <p className="text-xs uppercase tracking-[0.3em] text-muted-foreground mb-4">Dal corso</p>
+          <img src={superProgrammatoreLogo} alt="Super Programmatore" className="w-32 h-auto mx-auto mb-3" />
           <p className="text-lg md:text-xl font-semibold text-foreground/90">
             "Diventa un Super Programmatore con il{" "}
             <span className="text-primary">Super Potere dell'AI!</span>"
