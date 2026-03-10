@@ -81,7 +81,7 @@ const HeroSection = () => {
           className="grid grid-cols-1 sm:grid-cols-2 gap-4 sm:gap-6 max-w-2xl mx-auto"
         >
           <a
-            href="https://example.com/lezione"
+            href="https://studenti.accademiadelcloud.it/p/web-app-in-10-minuti"
             target="_blank"
             rel="noopener noreferrer"
             className="rounded-2xl border border-primary/20 bg-gradient-to-br from-card to-primary/5 p-6 text-center flex flex-col items-center hover:border-primary/40 transition-colors duration-300 group"
