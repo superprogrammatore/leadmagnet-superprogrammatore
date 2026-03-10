@@ -80,10 +80,10 @@ const LeadMagnetSection = () => {
             <Button
               asChild
               size="lg"
-              className="w-full h-14 text-base font-bold rounded-xl bg-primary text-primary-foreground hover:bg-primary/90 transition-all duration-300 group"
+              className="w-full h-14 text-sm sm:text-base font-bold rounded-xl bg-primary text-primary-foreground hover:bg-primary/90 transition-all duration-300 group"
             >
               <a href="https://superprogrammatore.it" target="_blank" rel="noopener noreferrer">
-                <span className="leading-none">Diventa Super Programmatore!</span>
+                <span className="leading-none text-sm sm:text-base">Diventa Super Programmatore!</span>
                 <ArrowRight className="w-5 h-5 shrink-0 group-hover:translate-x-1 transition-transform" />
               </a>
             </Button>

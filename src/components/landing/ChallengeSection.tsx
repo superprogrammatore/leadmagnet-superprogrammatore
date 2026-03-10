@@ -99,7 +99,7 @@ const ChallengeSection = () => {
             <Button
               asChild
               size="lg"
-              className="h-14 sm:h-16 px-8 sm:px-12 text-base sm:text-lg font-bold rounded-2xl bg-primary text-primary-foreground hover:bg-primary/90 transition-all duration-300 group glow-yellow"
+              className="h-14 sm:h-16 px-6 sm:px-12 text-sm sm:text-lg font-bold rounded-2xl bg-primary text-primary-foreground hover:bg-primary/90 transition-all duration-300 group glow-yellow w-full sm:w-auto"
             >
               <a href="https://studenti.accademiadelcloud.it/p/web-app-in-10-minuti" target="_blank" rel="noopener noreferrer">
                 <span className="leading-none">Voglio Vedere con i Miei Occhi</span>
