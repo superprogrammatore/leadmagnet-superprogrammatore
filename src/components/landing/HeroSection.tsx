@@ -104,7 +104,7 @@ const HeroSection = () => {
           </a>
 
           <a
-            href="https://example.com/super-programmatore"
+            href="https://superprogrammatore.it"
             target="_blank"
             rel="noopener noreferrer"
             className="rounded-2xl border border-primary/20 bg-gradient-to-br from-card to-primary/5 p-6 text-center flex flex-col items-center hover:border-primary/40 transition-colors duration-300 group"

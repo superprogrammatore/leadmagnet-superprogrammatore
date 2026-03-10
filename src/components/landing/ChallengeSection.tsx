@@ -101,7 +101,7 @@ const ChallengeSection = () => {
               size="lg"
               className="h-14 sm:h-16 px-8 sm:px-12 text-base sm:text-lg font-bold rounded-2xl bg-primary text-primary-foreground hover:bg-primary/90 transition-all duration-300 group glow-yellow"
             >
-              <a href="https://example.com/lezione" target="_blank" rel="noopener noreferrer">
+              <a href="https://studenti.accademiadelcloud.it/p/web-app-in-10-minuti" target="_blank" rel="noopener noreferrer">
                 <span className="leading-none">Voglio Vedere con i Miei Occhi</span>
                 <ArrowRight className="w-5 h-5 shrink-0 group-hover:translate-x-1 transition-transform" />
               </a>
