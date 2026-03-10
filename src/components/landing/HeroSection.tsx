@@ -1,6 +1,7 @@
 import { motion } from "framer-motion";
 import { ArrowRight, Zap, Rocket } from "lucide-react";
 import { Button } from "@/components/ui/button";
+import superProgrammatoreLogo from "@/assets/super-programmatore-logo.png";
 
 const HeroSection = () => {
   const scrollToForm = () => {
